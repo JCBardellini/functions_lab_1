@@ -41,18 +41,18 @@
 
 // 5. Write a function called doLoopWithThisNumber that will do a while loop from 0 until the given number parameter. Call this 5 times with 10, 100, 78, 22, 15
 
-// const doLoopWithThisNumber = (number) => {
-//     let i = 0;
-//     while (i == number) {
-//         i++;
-//     }
-//     console.log("I am ", number)
-// }
-// doLoopWithThisNumber(10);
-// doLoopWithThisNumber(100);
-// doLoopWithThisNumber(78);
-// doLoopWithThisNumber(22);
-// doLoopWithThisNumber(15);
+const doLoopWithThisNumber = (number) => {
+    let i = 0;
+    while (i <= number) {
+        i++;
+        console.log("I am ", i)
+    }
+}
+doLoopWithThisNumber(10);
+doLoopWithThisNumber(100);
+doLoopWithThisNumber(78);
+doLoopWithThisNumber(22);
+doLoopWithThisNumber(15);
 
 
 // 6. Write a function (you make the name) that will add 2 numbers together. Call 3 times.
@@ -79,19 +79,19 @@
 
 // 10. Write a function (you make the name) that will log the typeof the data parameter. call 1 time
 
-const checkTypeOf = (data) => {
-    console.log(typeof data)
-}
+// const checkTypeOf = (data) => {
+//     console.log(typeof data)
+// }
 
-checkTypeOf(45)
+// checkTypeOf(45)
 
 // 11. Write a function (you make the name) that will do a loop 0-? The loop should end based on the number parameter. call 2 times.
 
-const whatIsTheScore = (number) => {
-    for(let i=0; i <= number; i++) {
-        console.log("This is your score: ", i)
-    }
-}
+// const whatIsTheScore = (number) => {
+//     for(let i=0; i <= number; i++) {
+//         console.log("This is your score: ", i)
+//     }
+// }
 
-whatIsTheScore(42)
-whatIsTheScore(10)
+// whatIsTheScore(42)
+// whatIsTheScore(10)
